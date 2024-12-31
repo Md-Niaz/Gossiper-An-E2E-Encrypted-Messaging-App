@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="325dp"
+    android:layout_height="234dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="113dp"
+    android:background="@drawable/shapedialog">
+
+    <ImageView
+        android:id="@+id/logoutdia"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:src="@drawable/logout"
+        android:layout_gravity="center"
+        android:layout_margin="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure to Logout from \n GOSSIPER!"
+        android:textSize="@dimen/_13sdp"
+        android:gravity="center"
+        android:layout_margin="@dimen/_8sdp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_regular"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/nobnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_13sdp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textColor="#315CF3"
+            android:backgroundTint="#CFD1D0"
+            android:textAllCaps="false"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/yesbnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_13sdp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Log out"
+            android:textColor="#FF0909"
+            android:backgroundTint="#CFD1D0"
+            android:textAllCaps="false"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
